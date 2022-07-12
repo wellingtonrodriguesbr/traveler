@@ -4,7 +4,7 @@ import { Container } from "../components/Container";
 export function AllCitys() {
   return (
     <Container>
-      <div className="flex justify-between items-center mt-10">
+      <div className="flex flex-col xl:flex-row gap-12 justify-between items-center mt-10">
         <h2 className="text-blue-700 text-4xl font-semibold font-[barlow]">
           Selecione uma cidade
         </h2>

@@ -4,7 +4,7 @@ interface CardCityProps {
 
 export function CardCity({ imgSrc }: CardCityProps) {
   return (
-    <div className="w-full min-w-[304px] xl:w-[304px] h-[316px] bg-white rounded-[20px] flex flex-col border border-gray-100">
+    <div className="w-full min-w-[254px] xl:w-[254px] h-[316px] bg-white rounded-[20px] flex flex-col border border-gray-100">
       <div className="h-[210px] w-full overflow-hidden object-cover">
         <img className="rounded-t-[20px]" src={imgSrc} alt="" />
       </div>
