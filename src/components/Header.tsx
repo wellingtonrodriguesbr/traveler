@@ -1,16 +1,10 @@
 import { Container } from "./Container";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../assets/Logo.svg";
 
 export function Header() {
-  const { pathname } = useLocation();
-
   return (
-    <header
-      className={`h-24 flex justify-center items-center ${
-        pathname !== "/" && "bg-white border-b border-gray-100"
-      }`}
-    >
+    <header className={`h-24 flex justify-center items-center bg-white`}>
       <Container>
         <div className="flex justify-between items-center py-8">
           <NavLink to="/">
