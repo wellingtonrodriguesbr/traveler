@@ -7,7 +7,7 @@ export function Home() {
     <Container>
       <div className="flex flex-col xl:flex-row justify-between h-full xl:max-h-screen xl:pb-0 pb-96 overflow-hidden">
         <div className="mt-12 xl:mt-[108px] flex flex-col justify-center items-center xl:items-start xl:justify-start">
-          <h1 className="font-[barlow] font-semibold text-5xl xl:text-[5rem] text-blue-700 xl:leading-[74px] text-center xl:text-left w-full xl:max-w-[329px]">
+          <h1 className="font-[barlow] font-semibold text-7xl xl:text-[5rem] text-blue-700 xl:leading-[74px] text-center xl:text-left w-full xl:max-w-[329px]">
             Viva uma grande aventura
           </h1>
           <p className="mt-10 w-full xl:max-w-[329px] text-gray-500 text-xl leading-relaxed text-center xl:text-left">

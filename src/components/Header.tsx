@@ -16,7 +16,7 @@ export function Header() {
           <NavLink to="/">
             <img src={Logo} alt="" />
           </NavLink>
-          <button className="bg-blue-100 w-[174px] h-12 rounded-[10px] text-blue-500 font-medium hover:bg-blue-500 hover:text-white transition-colors">
+          <button className="bg-blue-100 max-w-[174px] px-4 h-12 rounded-[10px] text-blue-500 font-medium hover:bg-blue-500 hover:text-white transition-colors">
             Acesso restrito
           </button>
         </div>
