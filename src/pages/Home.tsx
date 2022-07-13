@@ -15,7 +15,7 @@ export function Home() {
             Santa Catarina.
           </p>
           <NavLink
-            to="/allcitys"
+            to="allcitys"
             className="mt-12 px-8 xl:w-[329px] h-[72px] bg-orange-500 text-white rounded-[10px] text-lg hover:brightness-90 transition-colors flex items-center justify-center"
           >
             Descobrir todos os lugares
