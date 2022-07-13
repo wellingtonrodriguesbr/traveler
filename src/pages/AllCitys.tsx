@@ -10,10 +10,12 @@ export function AllCitys() {
         </h2>
         <nav>
           <ul className="flex gap-8 border-b border-gray-100 text-gray-300 font-[barlow] h-12">
-            <li className="text-blue-700 font-semibold relative after:w-full after:h-[2px] after:bg-red-500 after:absolute after:bottom-0 after:left-0 py-[10px] after:rounded-full h-12 cursor-pointer">
+            <li className="h-12 cursor-pointer hover:text-blue-700 relative after:w-full after:h-[2px] after:bg-red-500 after:absolute after:bottom-0 after:left-0 py-[10px] after:rounded-full after:hidden hover:after:block transition-all">
               Todas
             </li>
-            <li className="py-[10px] h-12 cursor-pointer">Mais acessadas</li>
+            <li className="h-12 cursor-pointer hover:text-blue-700 relative after:w-full after:h-[2px] after:bg-red-500 after:absolute after:bottom-0 after:left-0 py-[10px] after:rounded-full after:hidden hover:after:block transition-all">
+              Mais acessadas
+            </li>
             <select
               name=""
               id="options"
